@@ -1,0 +1,318 @@
+/*Common css start here*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: #626262;
+}
+/*Common css end here*/
+/*Header CSS Start Here*/
+#header {
+    padding: 25px 0;
+    /*border: 1px solid red;*/
+}
+.wrapper {
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+}
+.logo {
+    float: left;
+    width: 10%;
+    /*border: 1px solid red;*/
+}
+.logo a {}
+.logo img {
+    width: 100%;
+}
+.menu {
+    float: right;
+    width: 60%;
+    /*border: 1px solid red;*/
+}
+.menu ul {
+    /*border: 1px solid green;*/
+    float: right;
+    margin: 0px;
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+    transition: 1s;
+}
+.menu ul li:hover {
+    transform: translateY(-2px);
+    transition: 1s;
+}
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 0px 47px;
+    color: #626262;
+    padding: 0px 5px;
+    border-bottom: transparent;
+    /*transition: 1s;*/
+}
+.menu ul li:last-child a {
+    margin-right: 0px;
+}
+.menu ul li a:hover {
+    color: #626262;
+    border-bottom: 2px solid gray;
+    /*transition: 1s;*/
+}
+@media only screen and (max-width: 600px) {
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin: 0px 5px;
+    color: #626262;
+    padding: 0px 0px;
+    border-bottom: transparent;
+    /*transition: 1s;*/
+}
+}
+/*Header CSS End Here*/
+
+/*Banner Start Here*/
+#banner {}
+.b_img {}
+.b_img img {
+    width: 100%;
+    transition: 1s;
+}
+.b_img img:hover {
+    cursor: pointer;
+    transform: scale(0.99);
+    transition: 1s;
+}
+/*Banner End Here*/
+
+/*Perfect CSS Start Here*/
+#perfect {
+    padding: 70px 0px;
+    /*border: 1px solid green;*/
+}
+.wrapper2 {
+    width: 85%;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+}
+.c_tag {
+    margin: 0;
+    font-family: 'Ubuntu', serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.c_h1 {
+    margin: 20px 0 30px;
+    font-weight: 400;
+    font-size: 30px;
+}
+.c_text {
+    margin: 0px;
+    text-align: justify;
+    line-height: 25px;
+}
+.mb_45 {
+    margin-bottom: 45px;
+}
+/*Perfect CSS End Here*/
+
+/*blog1 start here*/
+#blog1 {
+    /* border: 1px solid red; */
+    padding-bottom: 55px;
+}
+.wrapper2 {}
+.blog_content {
+    overflow: hidden;
+    /*border: 1px solid green;*/
+}
+.s_blog {
+    margin-bottom: 70px;
+    float: left;
+    width: 47%;
+    /*border: 1px solid red;*/
+}
+.s_blog:nth-child(even) {
+    margin-left: 6%;
+}
+.blog_img {
+    margin-bottom: 25px;
+}
+.blog_img img {
+    width: 100%;
+    transition: 1s;
+}
+.blog_img img:hover {
+    cursor: pointer;
+    transform: scale(0.98);
+    transition: 1s;
+}
+/*blog1 end here*/
+
+/*Newsletter start here*/
+#news {
+    background-color: #f0f0f0;
+    padding: 70px 0; 
+}
+.wrapper2 {}
+.signup {
+    text-align: center;
+}
+.title {
+    font-weight: 400;
+    font-size: 30px;
+    /*margin-top: 20px;*/
+    /*margin-bottom: 30px;*/
+}
+.s_h1 {
+    color: #333333;
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
+.s_form {
+    position: relative;
+    width: 400px;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+}
+.s_form input {
+    font-family: 'playfair display', serif;
+    font-size: 14px;
+    color: #626262;
+    width: 350px;
+    height: 45px;
+    border: none;
+    border-bottom: 2px solid #cccccc;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 45px;
+}
+.s_form input:focus {
+    outline: 0;
+}
+.s_form button {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+}
+.s_form button:focus {
+    outline: 0;
+}
+.s_form button img {}
+
+/*Newsletter end here*/
+
+/*Blog2 CSS Start Here*/
+#blog2 {
+     /*border: 1px solid red;*/
+     margin-top: 104px;
+}
+/*Blog2 CSS End Here*/
+
+/*Load More Button Start Here*/
+#load_more {
+    /* border: 1px solid red; */
+    padding-top: 96px;
+    padding-bottom: 190px;
+}
+.wrapper3 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.wrapper3 button {
+    font-family: 'Playfair Display', serif;
+    padding: 15px 35px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 3px solid #dddcd7;
+    transition: 1s;
+}
+.wrapper3 button a {
+    text-decoration: none;
+    color: #626262;
+}
+.wrapper3 button:hover {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    border: 3px solid transparent;
+    transition: 1s;
+}
+/*Load More Button End Here*/
+
+/*Footer CSS Start Here*/
+#footer {
+    background-color: #f0f0f0;
+    padding: 25px 0px;
+}
+.f_content {
+    overflow: hidden;
+    /*border: 1px solid red;*/
+    font-size: 13px;
+}
+.Left_con {
+    float: left;
+    /*border: 1px solid green;*/
+    width: 30%;
+}
+.right_con {
+    float: right;
+    /*border: 1px solid green;*/
+    width: 30%;
+}
+.Left_con ul {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.Left_con ul li {
+    list-style: none;
+    float: left;
+}
+.Left_con ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+.Left_con ul li:first-child a {
+    padding-left: 0;
+}
+.right_con ul {
+    margin: 0;
+    float: right;
+    padding: 0;
+}
+.right_con ul li {
+    list-style: none;
+    float: left;
+    transition: 1s;
+}
+.right_con ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+.right_con ul li:hover {
+    transform: translateY(2px);
+    transition: 1s;
+}
+.right_con ul li:last-child a {
+    padding-right: 0;
+}
+.s_icon {
+    color: #88888c;
+}
+/*Footer CSS End Here*/
